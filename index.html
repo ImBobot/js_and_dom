@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Traversing the DOM with Javascript</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">SiBOBOT</h1>
+                <p>Popular videos of the legend Mathematician</p>
+                <!-- <p class="google-link"><a href="https://google.com" target="_blank">search google</a></p> -->
+                <form action="#" id="search-video">
+                    <input type="text" placeholder="Search Videos...">
+                </form>
+            </div>
+        </header>
+        <div id="video-list">
+            <h2 class="title">Video to Watch...</h2>
+            <ul>
+                <li>
+                    <span class="name">The first law of mathematics</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Mathematics and science</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">The simple math and the new math</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">The math today and the math tomorrow</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Stop mathing me</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Math two log</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+        <form action="#" id="add-video">
+            <input type="checkbox" id="hide"/>
+            <label for="hide">hide all videos </label>
+            <input type="text" placeholder="Add videos...">
+            <Button>Add</Button>
+        </form>
+        <div id="tabbed-content">
+            <ul class="tabs">
+              <li data-target="#about" class="active">About</li>
+              <li data-target="#contact">Contact</li>
+            </ul>
+            <div class="panel active" id="about">
+              <p>Content for about tab...</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id nunc porta urna ornare rhoncus. Ut convallis ante at.</p>
+            </div>
+            <div class="panel" id="contact">
+              <p>Content for contact tab...</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id nunc porta urna ornare rhoncus. Ut convallis ante at.</p>
+            </div>
+        </div>
+    </div>
+
+  <script src="file.js"></script>
+</body>
+</html>
